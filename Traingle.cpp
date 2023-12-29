@@ -19,7 +19,7 @@ int main() {
         // Print spaces
         for (int j = 1; j <= height - i; ++j) {
             std::cout << " ";
-        }
+        } 
 
         // Print asterisks
         for (int k = 1; k <= 2 * i - 1; ++k) {

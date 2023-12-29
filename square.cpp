@@ -10,14 +10,15 @@ void drawSquare(int size) {
 }
 
 int main() {
-    int size;
+    int length;
 
     // Get the size of the square from the user
     std::cout << "Enter the size of the square: ";
-    std::cin >> size;
+    std::cin >> length;
 
     // Draw the square
-    drawSquare(size);
+    drawSquare(length);
 
     return 0;
 }
+// The above code create a square with the desired size from the user
